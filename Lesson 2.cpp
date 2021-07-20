@@ -92,7 +92,7 @@ public:
 int main()
 {
 	//===========================================TASK 1================================================
-	/*cout << "    TASK 1:     " << endl << endl;
+	cout << "    TASK 1:     " << endl << endl;
 
 	Person person1{"Petr", 23, 'M', 78 };
 	person1.Print();
@@ -104,9 +104,10 @@ int main()
 
 	
 	student3.Print();
-	sumStud = 0;*/
-	
+	sumStud = 0;
+	cout << endl;
 	//===========================================TASK 2================================================
+	cout << "    TASK 2:     " << endl << endl;
 
 	Apple a("red");
 	Banana b;
