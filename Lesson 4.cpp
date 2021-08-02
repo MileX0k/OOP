@@ -198,8 +198,7 @@ void sortAndDelete(vector <int> v1)
     {
         for (int i = 0; i < copy.size() - 1; i++)
         {
-            int temp = copy[i];
-            if (temp == copy[i + 1])
+            if (copy[i] == copy[i + 1])
                 copy.erase(it + 1);
         }
         it++;
